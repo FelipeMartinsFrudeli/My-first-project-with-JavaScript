@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <title>Teste JavaScript</title>
+    <script>
+        var corTrocada = false;
+        function mudaCor(tipoCor) {
+
+            if (!corTrocada) {
+                document.getElementById("cor").src="imagens/purple.png";
+            } return;
+            
+        }
+
+    </script>
+</head>
+<body>
+    <h2>Clique para trocar de cor:</h2>
+    <img src="imagens/red.png" id="cor" onclick="mudaCor('cor-trocar-red')"/>
+
+</body>
+</html>
